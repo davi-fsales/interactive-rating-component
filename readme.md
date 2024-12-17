@@ -39,7 +39,7 @@ Este projeto foi um ótimo exercício prático para reforçar conceitos de **ló
 
 
 ## Demonstração
-<img widht="1040px" height="600px" src="src/assets/to_readme/cartao-de-avaliacao.gif">
+<img widht="800px" height="450px" src="src/assets/to_readme/cartao-de-avaliacao.gif">
 
 ## Design responsivo para mobile
 <img src="src/assets/to_readme/cartao-de-avaliacao-mobile.png">
