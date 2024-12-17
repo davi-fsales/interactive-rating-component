@@ -1,0 +1,172 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Cartao de avaliação */
+
+.container .cartao-de-avaliacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container .cartao-de-avaliacao .icone-estrela{
+    background-color: #31383f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container .cartao-de-avaliacao .icone-estrela i{
+    font-size: 14px;
+    color: hsl(25, 97%, 53%);
+}
+
+.container .cartao-de-avaliacao .titulo{
+    color: white;
+    font-weight: 700;
+}
+
+.container .cartao-de-avaliacao .informacoes{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container .cartao-de-avaliacao .notas-de-avaliacao{
+    display: flex;
+    align-self: center;
+ }
+
+ .container .cartao-de-avaliacao .notas-de-avaliacao li{
+    padding: 10px;
+ }
+
+ .container .cartao-de-avaliacao .notas-de-avaliacao .btn-avaliacao{
+    width: 55px;
+    height: 55px;
+    background-color: #31383f;
+    color: hsl(217, 12%, 63%);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ .container .cartao-de-avaliacao .notas-de-avaliacao .btn-avaliacao:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+ }
+
+ .container .cartao-de-avaliacao .notas-de-avaliacao .btn-avaliacao.ativo{
+    background-color: white;
+    color: hsl(213, 19%, 18%);
+ }
+
+ .container .cartao-de-avaliacao .btn-submit{
+    height: 50px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ .container .cartao-de-avaliacao .btn-submit:hover{
+    background-color: white;
+ }
+
+
+ .container .esconder{
+    opacity: 0;
+    visibility: hidden
+}
+
+/* Cartao de agradecimento */
+
+.container .cartao-de-agradecimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.container .cartao-de-agradecimento .imagem-de-agradecimento{
+    width: 160px;
+    height: 130px;
+    padding-top: 20px;
+}
+
+.container .cartao-de-agradecimento .titulo,
+.container .cartao-de-agradecimento .informacoes{
+    display: flex;
+    justify-content: end;
+}
+
+.container .cartao-de-agradecimento .resultado-da-avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    background-color: #31383f;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.container .cartao-de-agradecimento .titulo{
+    color: white;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.container .cartao-de-agradecimento .informacoes{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+

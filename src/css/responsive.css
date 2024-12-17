@@ -1,0 +1,7 @@
+@media(max-width:500px){
+    .container .cartao-de-avaliacao,
+    .container .cartao-de-agradecimento{
+        width: 370px;
+        height: 450px;
+    }
+}
