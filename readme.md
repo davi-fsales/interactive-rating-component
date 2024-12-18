@@ -18,11 +18,11 @@ HTML5 | CSS | JavaScript
 ## 💡 Desafios
 Meus maiores desafios foram:
 
-Colocar a lógica em prática no JavaScript
-Manipulação funcional e limpa do DOM no JavaScript
-Fazer o manejo correto das remoções e adições de classes utilizando as propriedades do JavaScript
-Reproduzir o design de um projeto do FrontEnd Mentor utilizando HTML e CSS
-Destribuir bem as funções de cada tecnologia
+- Colocar a lógica em prática no JavaScript
+- Manipulação funcional e limpa do DOM no - JavaScript
+- Fazer o manejo correto das remoções e adições de classes utilizando as propriedades do JavaScript
+- Reproduzir o design de um projeto do FrontEnd Mentor utilizando HTML e CSS
+- Destribuir bem as funções de cada tecnologia
 
 
 ## 🚀 Aprendizados
